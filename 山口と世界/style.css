@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    display:block;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    margin:0px;
+}
+
+
+main{
+    display:inline-block;
+    margin:0px;
+    border-top:solid 0px;
+    border-right:solid 150px silver;
+    border-bottom: solid 0px;
+    border-left: solid 150px silver;
+}
+footer{
+    background-color: lightblue;
+    height: 50px;
+    width:100%;
+    margin:0px;
+}
+.adress{
+    display:flex;
+    justify-content: flex-end;
+    height:50px;
+    color: white;
+}
+h4{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-block-start: 1.0em;
+}
+
+.lineup {
+    margin-right:20px;
+    margin-top:50px;
+    margin-left:20px;
+    margin-bottom:50px;
+    padding: .8rem ;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.lineup0{
+    font:  1.3rem 'Fira Sans', sans-serif bold;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-bottom: .3rem;
+}
+
+.lineup > h1,
+.lineup-1 {
+    margin-left:10px;
+}
+.lineup-1 > h2,
+.lineup-1 > p {
+    margin: auto;
+    font-size: 1rem;
+}
+li{
+    list-style-type: square;
+}
+
+h1.sitetitle{
+    margin-left:5px;
+    border-left: solid 7px gray;
+    padding-left:5px;
+}
+
+.postscript{
+    margin-left:10px;
+}
+
+.main2{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-left: 20px;
+}
+
+.logo{
+    width:50px;
+}
+
+.title{
+    margin-top:0px;
+}
+
+.end{
+    margin-bottom:0px;
+}
+
+.about{
+    background-color: rgb(245, 217, 221);
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+}
+
+.midashi{
+    font-weight: bold;
+}
+
+
+/* 画像サイズ */
+
+.ruri{
+    height:50%;
+    width:50%;
+}
+
+.inoue{
+    height:50%;
+    width:80%;
+}
+
+.kitsune{
+    height:50%;
+    width:80%;
+}
+
+.gazou{
+    height:50%;
+    width:80%;
+}
+
+.kinenkan{
+    height:80%;
+    width:90%;
+}
